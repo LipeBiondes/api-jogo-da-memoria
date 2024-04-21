@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "node build/server.js",
-    "build": "tsup src --out-dir build"
+    "build": "npm install && tsup src --out-dir build"
   },
   "keywords": [],
   "author": "",
